@@ -350,6 +350,7 @@ UBOOT_TARGETS := \
 	A20-OLinuXino-Lime2-eMMC \
 	A20-OLinuXino_MICRO \
 	bananapi_m2_plus_h3 \
+	bananapi_m2_zero \
 	Bananapi \
 	bananapi_m2_berry \
 	Bananapi_M2_Ultra \
