@@ -176,6 +176,15 @@ define Device/sinovoip_bananapi-m2-plus
 endef
 TARGET_DEVICES += sinovoip_bananapi-m2-plus
 
+define Device/sinovoip_bananapi-m2-zero
+  DEVICE_VENDOR := Sinovoip
+  DEVICE_MODEL := Banana Pi M2 Zero
+  DEVICE_PACKAGES:=kmod-leds-gpio kmod-brcmfmac \
+	brcmfmac-firmware-43430a0-sdio wpad-basic-mbedtls
+  SOC := sun8i-h2-plus
+endef
+TARGET_DEVICES += sinovoip_bananapi-m2-zero
+
 define Device/xunlong_orangepi-one
   DEVICE_VENDOR := Xunlong
   DEVICE_MODEL := Orange Pi One

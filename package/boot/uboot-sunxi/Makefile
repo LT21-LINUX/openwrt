@@ -294,6 +294,12 @@ define U-Boot/bananapi_m2_plus_h3
   BUILD_DEVICES:=sinovoip_bananapi-m2-plus
 endef
 
+define U-Boot/bananapi_m2_zero
+  BUILD_SUBTARGET:=cortexa7
+  NAME:=Bananapi M2 Zero H3
+  BUILD_DEVICES:=sinovoip_bananapi-m2-zero
+endef
+
 define U-Boot/sopine_baseboard
   BUILD_SUBTARGET:=cortexa53
   NAME:=Sopine Baseboard
